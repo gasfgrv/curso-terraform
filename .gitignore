@@ -29,3 +29,9 @@ terraform.rc
 
 # Dependency control
 .terraform.lock.hcl
+
+# Plan files
+*.out
+
+# SSH Keys
+**/*key
